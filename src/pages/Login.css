@@ -7,8 +7,8 @@
     align-items:center;
 
     background:
-    linear-gradient(#e6e7e1ca,hsla(175, 84%, 61%, 0.769)),
-    url("/images/pharmacy-bg.jpg");
+    linear-gradient(#e6e7e1ca,hsla(196, 62%, 38%, 0.3)),
+    url("/images/medicines pharma-bg.jpg");
 
     background-size:cover;
     background-position:center;
@@ -30,26 +30,26 @@
 
 .tag{
     display:inline-block;
-    background:lab(80.93% -73.94 75.57);
-    color:#89135a;
+    background:lab(68.12% -35.56 53.28);
+    color:#660827;
     padding:12px 28px;
     border-radius:40px;
     font-size:20px;
     font-weight:600;
     margin-bottom:18px;
-    box-shadow:0 8px 20px rgba(0,0,0,.2);
+    box-shadow:0 8px 20px rgba(34, 205, 227, 0.2);
 }
 
 .welcome-section h1{
     font-size:60px;
     font-weight:800;
-    color:lab(14.69% 32.67 19.91 / 0.864);
+    color:lab(56.23% 59.54 64.79 / 0.968);
     margin-bottom:18px;
-    text-shadow:2px 2px 8px rgba(165, 215, 36, 0.609);
+    text-shadow:2px 2px 8px 
 }
 
 .welcome-section h1 span{
-    color:#a30e88;
+    color:rgb(71, 108, 12);
 }
 
 .welcome-section p{
@@ -57,7 +57,7 @@
     margin:auto;
     font-size:22px;
     font-weight:600;
-    color:hwb(30 9% 90%);
+    color:hwb(20 22% 16%);
     line-height:1.6;
 }
 
@@ -97,7 +97,7 @@
 
 .login-card input:focus{
     border-color:#0b5ed7;
-    box-shadow:0 0 8px rgba(11,94,215,.3);
+    box-shadow:0 0 8px rgba(118, 46, 5, 0.3);
 }
 
 .login-card button{
