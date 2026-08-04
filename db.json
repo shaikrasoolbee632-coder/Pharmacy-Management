@@ -1,0 +1,46 @@
+{
+  "destinations": [],
+  "medicines": [
+    {
+      "id": "4",
+      "name": "Vitamin C",
+      "category": "Vitamin",
+      "price": 80,
+      "image": "/images/vitamin-c.jpg",
+      "description": "Vitamin supplement used to boost immunity and prevent vitamin C deficiency."
+    }
+  ],
+  "users": [
+    {
+      "name": "Reshma",
+      "email": "shaikrasoolbee906@gmail.com",
+      "password": "123456",
+      "id": "LTtX44ZjCnM"
+    },
+    {
+      "name": "Rasoolbee",
+      "email": "shaikrasoolbee906@gmail.com",
+      "password": "123456",
+      "id": "O17O3VwK3LI"
+    },
+    {
+      "name": "Sohail",
+      "email": "shaikrasoolbee632@gmail.com",
+      "password": "123456",
+      "id": "6S_aX8Ee7xs"
+    },
+    {
+      "name": "Rasoolbee Rasoolbee",
+      "email": "shaikrasoolbee632@gmail.com",
+      "password": "123456",
+      "id": "zmWCqSlwaDc"
+    },
+    {
+      "name": "Rasoolbee",
+      "email": "shaikrasoolbee632@gmail.com",
+      "password": "123456",
+      "id": "3xz6FhlumK8"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,129 @@
+
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.favorites-header{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.favorites-header h1{
+    font-size:60px;
+    color:#6b0e84ca;
+    font-weight:700;
+}
+
+.favorites-header p{
+    margin-top:10px;
+    font-size:20px;
+    color:hwb(60 92% 6% / 0.802);
+}
+.favorite-card{
+    width:340px;
+    background:#fff;
+    border-radius:20px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(228, 51, 51, 0.15);
+    transition:.3s;
+}
+
+.favorite-card:hover{
+    transform:translateY(-8px);
+}
+
+.favorite-card img{
+    width:220px;
+    height:220px;
+    object-fit:cover;
+    border-radius:15px;
+    margin-bottom:15px;
+}
+
+.favorite-card h2{
+    color:#15c090d6;
+    margin-bottom:15px;
+}
+
+.favorite-card p{
+    margin:8px 0;
+    color:#555;
+    font-size:17px;
+}
+
+.remove-btn{
+    margin-top:20px;
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    background:#e23e11f5;
+    color:rgba(7, 223, 75, 0.801);
+    font-size:17px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.remove-btn:hover{
+    background:#28c3c6;
+}
+
+.favorites-container{
+    min-height:100vh;
+    padding:50px 60px;
+
+    background:
+    linear-gradient(rgba(178, 1, 36, 0.421),#32b5bcba),
+    url("/images/medicines pharma-bg.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+.favorites-title{
+    text-align:center;
+    font-size:42px;
+    color:#1a0a34b1;
+    margin-bottom:10px;
+    font-weight:700;
+}
+
+.favorites-subtitle{
+    text-align:center;
+    color:#e3ed2354;
+    font-size:14px;
+    margin-bottom:40px;
+}
+
+.favorites-grid{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-wrap:wrap;
+    gap:35px;
+}
+
+.empty-message{
+    text-align:center;
+    font-size:24px;
+    color:#0f7131f1;
+    margin-top:80px;
+}
+
+.favorites-grid .medicine-card{
+    width:320px;
+    border-radius:18px;
+    overflow:hidden;
+    background:#81c209ce;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.favorites-grid .medicine-card:hover{
+    transform:translateY(-8px);
+}

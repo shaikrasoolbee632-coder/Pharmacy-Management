@@ -1,0 +1,112 @@
+.add-container{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+
+    background:
+    linear-gradient(rgba(12, 133, 220, 0.349),rgba(220, 92, 7, 0.486)),
+    url("/images/medicines pharma-bg.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+.add-card{
+    width:560px;
+    background:#ffffff;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 15px 35px rgba(0,0,0,.18);
+    transition:.3s ease;
+}
+
+.add-card:hover{
+    transform:translateY(-5px);
+}
+
+.add-card h2{
+    text-align:center;
+    color:#c02315e7;
+    font-size:34px;
+    font-weight:bold;
+    margin-bottom:30px;
+}
+
+.add-card form{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.add-card input,
+.add-card select,
+.add-card textarea{
+    width:100%;
+    padding:14px;
+    font-size:16px;
+    border:2px solid #d6e4ff;
+    border-radius:10px;
+    transition:.3s;
+    background:#fff;
+}
+
+.add-card textarea{
+    min-height:110px;
+    resize:vertical;
+}
+
+.add-card input:focus,
+.add-card select:focus,
+.add-card textarea:focus{
+    outline:none;
+    border-color:#1976d2;
+    box-shadow:0 0 10px rgba(25,118,210,.25);
+}
+
+.add-card button{
+    width:100%;
+    padding:15px;
+    margin-top:10px;
+    border:none;
+    border-radius:10px;
+    background:linear-gradient(135deg,#b0d2199e,#0d47a1);
+    color:#fff;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.add-card button:hover{
+    transform:scale(1.03);
+    box-shadow:0 8px 20px rgba(25,118,210,.35);
+}
+
+.add-card button:active{
+    transform:scale(.98);
+}
+
+::placeholder{
+    color:#888;
+}
+
+@media(max-width:768px){
+
+    .add-container{
+        padding:20px;
+    }
+
+    .add-card{
+        width:100%;
+        padding:30px;
+    }
+
+    .add-card h2{
+        font-size:28px;
+    }
+
+}

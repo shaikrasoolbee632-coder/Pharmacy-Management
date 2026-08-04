@@ -1,0 +1,106 @@
+.dashboard{
+    min-height:100vh;
+    padding:50px 30px;
+
+    background:
+        linear-gradient(rgba(255,255,255,0.85), rgba(184, 154, 5, 0.85)),
+        url("/images/medicines pharma-bg.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.dashboard-header{
+    text-align:center;
+    margin-bottom:60px;
+}
+.medicine-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.dashboard-header h1{
+    font-size:60px;
+    color:#7a0b1fcf;
+    font-weight:bold;
+    margin-bottom:15px;
+    letter-spacing:2px;
+}
+
+.dashboard-header p{
+    font-size:28px;
+    color:#0ca2f2;
+}
+.dashboard-cards{
+    display:flex;
+    justify-content:center;
+    align-items:stretch;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:320px;
+    height:360px;
+
+    background:rgba(15, 154, 229, 0.268);
+
+    border-radius:20px;
+
+    padding:30px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 35px rgba(0,0,0,.25);
+}
+
+.card h2{
+    font-size:36px;
+    color:#300549de;
+    margin:15px 0;
+}
+
+
+.card p{
+    font-size:18px;
+    color:#0d29e0f0;
+    text-align:center;
+    line-height:28px;
+}
+.card button{
+    width:180px;
+    padding:14px;
+
+    background:#d32f2f;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    margin-top:auto;
+}
+
+.card button:hover{
+    background:#b71c1c;
+}

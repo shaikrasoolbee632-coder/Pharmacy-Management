@@ -1,0 +1,82 @@
+.signup-container{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    background:
+    linear-gradient(rgba(255,255,255,0.3),rgba(44, 132, 176, 0.3)),
+    url("/images/medicines pharma-bg.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+.welcome-section{
+    text-align:center;
+    margin-bottom:35px;
+}
+
+
+
+.welcome-section h1{
+    font-size:52px;
+    font-weight:800;
+    margin-bottom:12px;
+
+    background:linear-gradient(90deg,#5ee823,#570731,#1df0d4);
+
+    background-clip:text;
+    -webkit-background-clip:text;
+
+    color:transparent;
+    -webkit-text-fill-color:transparent;
+}
+
+.welcome-section span{
+    color:#320f04;
+}
+
+.welcome-section p{
+    font-size:20px;
+    color:#1a1a19;
+    width:80%;
+    margin:auto;
+    line-height:1.6;
+    font-weight:500;
+}
+.form-container {
+    width: 350px;
+    margin: 50px auto;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.form-container input {
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+.form-container button {
+    padding: 12px;
+    background: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

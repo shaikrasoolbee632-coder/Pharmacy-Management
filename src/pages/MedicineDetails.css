@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.details-container{
+    min-height:100vh;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+
+    background:
+    linear-gradient(rgba(255,255,255,.70),rgba(176, 186, 32, 0.7)),
+    url("/images/medicines pharma-bg.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+.details-card{
+    width:900px;
+    background:#fff;
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+.page-title{
+    text-align:center;
+    color:#552590;
+    font-size:36px;
+    margin-bottom:25px;
+}
+
+.back-btn{
+    padding:10px 20px;
+    border:none;
+    border-radius:8px;
+    background:#c32341;
+    color:#fff;
+    cursor:pointer;
+    margin-bottom:25px;
+}
+
+.back-btn:hover{
+    background:#3fe929;
+}
+
+.details-body{
+    display:flex;
+    align-items:center;
+    gap:35px;
+}
+
+.details-body img{
+    width:260px;
+    height:260px;
+    object-fit:cover;
+    border-radius:15px;
+    border:3px solid #19d2c6;
+}
+
+.details-content{
+    flex:1;
+}
+
+.details-content h2{
+    color:#72157f;
+    margin-bottom:20px;
+}
+
+.details-content p{
+    font-size:18px;
+    margin:12px 0;
+    color:#555;
+}
