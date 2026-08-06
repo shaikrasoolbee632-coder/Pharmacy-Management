@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 function MedicineCard({ medicine, onDelete, onFavorite }) {
   const navigate = useNavigate();
+  console.log(medicine);
 
   return (
     <div className="medicine-card">

@@ -2,6 +2,31 @@
   "destinations": [],
   "medicines": [
     {
+  
+  "id": "1",
+  "name": "Paracetamol",
+  "category": "Analgesic",
+  "price": 45,
+  "image": "/images/paracetamol.jpg",
+  "description": "Pain reliever and fever reducer used for headaches,body pain, and fever."
+  },
+  {
+  "id": "2",
+  "name": "Amoxicillin",
+  "category": "Antibiotic",
+  "price": 85,
+  "image": "/images/amoxicillin.jpg",
+  "description": "Antibiotic used to treat bacterial infections of the throat, lungs, ears, and skin."
+},
+{
+  "id": "3",
+  "name": "Cetirizine",
+  "category": "Antihistamine",
+  "price": 35,
+  "image": "/images/cetirizine.jpg",
+  "description": "Antihistamine medicine used to treat allergies,sneezing,itching, and runny nose."
+},
+    {
       "id": "4",
       "name": "Vitamin C",
       "category": "Vitamin",
